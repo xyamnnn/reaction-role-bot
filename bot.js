@@ -8,7 +8,6 @@ const client = new Client({
     ] 
 });
 
-// Your bot token from environment variable
 const TOKEN = process.env.TOKEN;
 console.log("Token length:", TOKEN ? TOKEN.length : "No token found");const reactionRoles = {
     // Weather
@@ -164,6 +163,7 @@ client.on('messageReactionRemove', async (reaction, user) => {
 
 
 client.login(TOKEN);
+
 
 
 
