@@ -50,7 +50,7 @@ console.log("Token length:", TOKEN ? TOKEN.length : "No token found");const reac
 client.once('ready', async () => {
     console.log(`✅ Bot is online 24/7 as ${client.user.tag}`);
     
-    // Optional: Send the role message to a specific channel
+    // Optional: Snd the role message to a specific channel
     // Replace with your channel ID
     const channelId = 'YOUR_CHANNEL_ID_HERE';
     try {
@@ -163,6 +163,7 @@ client.on('messageReactionRemove', async (reaction, user) => {
 
 
 client.login(TOKEN);
+
 
 
 
