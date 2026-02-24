@@ -52,7 +52,7 @@ client.once('ready', async () => {
     
     // Optional: Snd the role message to a specific channel
     // Replace with your channel ID
-    const channelId = 'YOUR_CHANNEL_ID_HERE';
+    const channelId = '1475720060013379705';
     try {
         const channel = await client.channels.fetch(channelId);
         
@@ -163,6 +163,7 @@ client.on('messageReactionRemove', async (reaction, user) => {
 
 
 client.login(TOKEN);
+
 
 
 
