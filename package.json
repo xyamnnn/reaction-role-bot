@@ -1,0 +1,12 @@
+{
+  "name": "reaction-role-bot",
+  "version": "1.0.0",
+  "description": "Discord reaction role bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  }
+}
