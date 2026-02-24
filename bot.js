@@ -21,7 +21,7 @@ console.log("Token length:", TOKEN ? TOKEN.length : "No token found");const reac
     '🌊': 'Tsunami',
     '🌱': 'Seed Rain',
     
-    // Seeds
+    // Seed
     '🥕': 'Carrot Seed',
     '🌽': 'Corn Seed',
     '🧅': 'Onion Seed',
@@ -163,6 +163,7 @@ client.on('messageReactionRemove', async (reaction, user) => {
 
 
 client.login(TOKEN);
+
 
 
 
