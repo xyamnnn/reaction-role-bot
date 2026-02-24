@@ -9,7 +9,7 @@ const client = new Client({
 });
 
 // Your bot token from environment variable
-const TOKEN = "MTQ3NTU2NTQwMzIwMjc4NTMxMg"; /
+const TOKEN = "MTQ3NTU2NTQwMzIwMjc4NTMxMg"; 
 // Map emojis to role names
 const reactionRoles = {
     // Weather
@@ -165,4 +165,5 @@ client.on('messageReactionRemove', async (reaction, user) => {
 
 
 client.login(TOKEN);
+
 
