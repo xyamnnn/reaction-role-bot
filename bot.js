@@ -9,7 +9,7 @@ const client = new Client({
 });
 
 // Your bot token from environment variable
-const TOKEN = process.env.TOKEN;  // Gets token from Render, not code// Map emojis to role names
+const TOKEN = process.env.TOKEN;
 const reactionRoles = {
     // Weather
     '🌫️': 'Fog',
@@ -164,6 +164,7 @@ client.on('messageReactionRemove', async (reaction, user) => {
 
 
 client.login(TOKEN);
+
 
 
 
